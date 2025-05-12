@@ -68,7 +68,10 @@
       "values": [
         "Milestone",
         "Event",
-        "Date"
+        "Date",
+        "Connection",
+        "Activity",
+        "For follow up!"
       ],
       "sort": false,
       "cluster": true
@@ -120,8 +123,8 @@
       "cluster": false
     },
     {
-      "_id": "attr-eI5H6xmo",
-      "name": "Tags",
+      "_id": "attr-H31It07A",
+      "name": "Organisation/group",
       "format": "string",
       "private": false,
       "limit": "none",
@@ -133,30 +136,15 @@
       "cluster": true
     },
     {
-      "name": "Xcoord",
-      "format": "number",
+      "_id": "attr-eI5H6xmo",
+      "name": "Tags",
+      "format": "string",
       "private": false,
-      "limit": 1,
+      "limit": "none",
       "category": "General",
       "prompt": "autocomplete",
       "locked": false,
       "values": [],
-      "sort": false,
-      "cluster": true
-    },
-    {
-      "name": "Ycoord",
-      "format": "number",
-      "private": false,
-      "limit": 1,
-      "category": "General",
-      "prompt": "list",
-      "locked": false,
-      "values": [
-        10,
-        0,
-        1
-      ],
       "sort": false,
       "cluster": true
     }
@@ -170,6 +158,13 @@
       }
     },
     {
+      "_id": "elem-5kaX7Scu",
+      "attributes": {
+        "label": "Diverse Explorations - POP Collectives",
+        "element type": "Milestone"
+      }
+    },
+    {
       "_id": "elem-6R1eOIJc",
       "attributes": {
         "label": "Mar 2021",
@@ -180,29 +175,42 @@
       "_id": "elem-7Mb5uzhM",
       "attributes": {
         "label": "Mar 2023",
-        "element type": "Date",
-        "xcoord": 13,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-7chpVvvW",
+      "attributes": {
+        "label": "Vicky impact?",
+        "element type": "For follow up!"
+      }
+    },
+    {
+      "_id": "elem-7hg1e2Jy",
+      "attributes": {
+        "label": "Belong in Plymouth - stage 2 starts",
+        "element type": "Milestone",
+        "organisation/group": [
+          "Plymouth Octopus",
+          "Diversity Business Incubator"
+        ]
       }
     },
     {
       "_id": "elem-BT6UQdYe",
       "attributes": {
         "label": "Mar 2021",
-        "element type": "Date",
-        "xcoord": 5,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-CA3Kk3nT",
       "attributes": {
         "label": "The Plot' is born",
-        "description": "Where did the name ‘The Plot’ come from?\n  \n  It was a pretty scary jump to take on this building. Its 745 sqm, much bigger than The Clipper. We had a wobble in the process of putting plans in place - at one point we thought we were losing the plot! And there it was.\n  \n  It fitted perfectly with the idea we had developed in response to lots of local people saying they just needed a space to grow their project or enterprise. The idea was that people take the space they need - a small shed or a big unit and come together to support each other and create a great a space for local people",
+        "description": "Where did the name ‘The Plot’ come from?\n \n It was a pretty scary jump to take on this building. Its 745 sqm, much bigger than The Clipper. We had a wobble in the process of putting plans in place - at one point we thought we were losing the plot! And there it was.\n \n It fitted perfectly with the idea we had developed in response to lots of local people saying they just needed a space to grow their project or enterprise. The idea was that people take the space they need - a small shed or a big unit and come together to support each other and create a great a space for local people",
         "image": "https://images.squarespace-cdn.com/content/v1/62a788dac69e727547b6f61b/b681df5f-3a99-4443-b59d-22ce64ca75b2/dm2020__nudge_plot_neon_72dpi-5805.jpg?format=750w",
         "element type": "Milestone",
-        "xcoord": 0,
-        "ycoord": 1
+        "organisation/group": "Nudge"
       }
     },
     {
@@ -213,21 +221,50 @@
       }
     },
     {
+      "_id": "elem-D2khPJER",
+      "attributes": {
+        "label": "Stu attends Start Social event held at The Plot",
+        "element type": "Event",
+        "organisation/group": "Neudice CIC"
+      }
+    },
+    {
       "_id": "elem-DKdg6XET",
       "attributes": {
         "label": "Mar 2022",
-        "element type": "Date",
-        "xcoord": 9,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-Fkn54JwI",
+      "attributes": {
+        "label": "Plymouth Climate Hub 2025 gets funded - POP Collectives",
+        "element type": "Milestone"
+      }
+    },
+    {
+      "_id": "elem-FoRtFGM9",
+      "attributes": {
+        "label": "Plymouth Poetry Festival gets funded - POP Collectives",
+        "element type": "Milestone"
+      }
+    },
+    {
+      "_id": "elem-GTO8RjIO",
+      "attributes": {
+        "label": "Health is Wealth",
+        "element type": "Activity",
+        "organisation/group": [
+          "Diversity Business Incubator",
+          "Plymouth Octopus"
+        ]
       }
     },
     {
       "_id": "elem-HwPyTvsq",
       "attributes": {
         "label": "Dec 2024",
-        "element type": "Date",
-        "xcoord": 19,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
@@ -238,112 +275,154 @@
       }
     },
     {
+      "_id": "elem-K5SAobi2",
+      "attributes": {
+        "label": "Neudice moves in!",
+        "date": "2023-08-01",
+        "image": "https://neudice.org/cdn/shop/files/Horizontal_neudice_logo_google_workplace.png?v=1696010025&width=450",
+        "organisation/group": "Neudice CIC"
+      }
+    },
+    {
       "_id": "elem-MCLh40Bf",
       "attributes": {
         "label": "Theatre Royal performance",
         "description": "The building was in poor condition - our first challenge was getting rid of rats and making it safe for people. We were really motivated to do this because the Theatre Royal Plymouth wanted to do a performance in the space as part of Project X and we really wanted to make that happen - which we did - and it sold out.",
         "element type": "Event",
-        "xcoord": 1,
-        "ycoord": 1
+        "organisation/group": "Nudge"
+      }
+    },
+    {
+      "_id": "elem-QvLWp8Cd",
+      "attributes": {
+        "label": "Cashflow workshops",
+        "element type": "Activity"
       }
     },
     {
       "_id": "elem-RyymQbY0",
       "attributes": {
         "label": "Sept 2021",
-        "element type": "Date",
-        "xcoord": 7,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-UiyMBwQC",
       "attributes": {
         "label": "Sept 2023",
-        "element type": "Date",
-        "xcoord": 15,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-W4HTjOXX",
       "attributes": {
         "label": "Mar 2024",
-        "element type": "Date",
-        "xcoord": 17,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-WrIhSmwU",
       "attributes": {
         "label": "Sept 2022",
-        "element type": "Date",
-        "xcoord": 11,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-XrKQVfx3",
       "attributes": {
         "label": "Jun 2021",
-        "element type": "Date",
-        "xcoord": 6,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-YjySDodz",
       "attributes": {
         "label": "Dec 2022",
-        "element type": "Date",
-        "xcoord": 12,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-YwEaIglX",
       "attributes": {
         "label": "Dec 2019",
-        "element type": "Date",
-        "xcoord": 10,
-        "ycoord": 10
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-ZgNG6VBH",
       "attributes": {
         "label": "Dec 2023",
-        "element type": "Date",
-        "xcoord": 16,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-bT7pwd5Q",
+      "attributes": {
+        "label": "Ubuntu grants",
+        "element type": "Activity",
+        "organisation/group": [
+          "Diversity Business Incubator",
+          "Plymouth Octopus"
+        ]
       }
     },
     {
       "_id": "elem-bael8aYT",
       "attributes": {
         "label": "Jun 2023",
-        "element type": "Date",
-        "xcoord": 14,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-bbsFa3QP",
+      "attributes": {
+        "label": "Connection to Gareth @ Bikespace via Marjons - confidence to 'Just do it'!",
+        "element type": "Connection",
+        "organisation/group": "Neudice CIC"
+      }
+    },
+    {
+      "_id": "elem-dDG42S0p",
+      "attributes": {
+        "label": "Power to Change award funding to POP: “… to support POP’s development as a catalyst of community initiatives and democratic small grant distributor.",
+        "element type": "Milestone",
+        "organisation/group": "Plymouth Octopus"
       }
     },
     {
       "_id": "elem-e68ejiMC",
       "attributes": {
         "label": "Jun 2025",
-        "element type": "Date",
-        "xcoord": 21,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-f4eBS3mY",
+      "attributes": {
+        "label": "DBI a core partner on Belong in Plymouth",
+        "element type": "Connection",
+        "organisation/group": "Diversity Business Incubator"
+      }
+    },
+    {
+      "_id": "elem-fMWmnsA8",
+      "attributes": {
+        "label": "Activating the Athenaeum - POP Collectives",
+        "element type": "Milestone"
+      }
+    },
+    {
+      "_id": "elem-gqlsp34e",
+      "attributes": {
+        "label": "C103 A Vision of Future living - POP Collectives",
+        "element type": "Milestone"
       }
     },
     {
       "_id": "elem-h18nt6Gq",
       "attributes": {
         "label": "Sept 2025",
-        "element type": "Date",
-        "xcoord": 22,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
@@ -356,24 +435,38 @@
       }
     },
     {
+      "_id": "elem-l9gjsXnc",
+      "attributes": {
+        "label": "Tenant support from Paul Read",
+        "element type": "Activity",
+        "organisation/group": [
+          "Nudge"
+        ]
+      }
+    },
+    {
       "_id": "elem-mU4f5om1",
       "attributes": {
         "label": "Sept 2020",
-        "element type": "Date",
-        "xcoord": 3,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-no22jOAi",
       "attributes": {
         "label": "Nudge take on 80-84 Union Street",
-        "description": "In December 2019 we took on 80-84 Union Street, a building that had been standing empty for a few years and was in disrepair. \n  We were approached by the landowner who was keen to find a better use for the space.\n  \n  The Board decided that bringing this space back into use would have significant social impact. So we don’t own this building, we rent it.\n  \n  This has influenced how we invested in the space. We focused on creating spaces that could be dismantled and moved - greenhouses and sheds. As well as making some essential investment in doors, electrics and toilets.",
+        "description": "In December 2019 we took on 80-84 Union Street, a building that had been standing empty for a few years and was in disrepair. \n We were approached by the landowner who was keen to find a better use for the space.\n \n The Board decided that bringing this space back into use would have significant social impact. So we don’t own this building, we rent it.\n \n This has influenced how we invested in the space. We focused on creating spaces that could be dismantled and moved - greenhouses and sheds. As well as making some essential investment in doors, electrics and toilets.",
         "date": "2019-12-01",
         "image": "https://images.squarespace-cdn.com/content/v1/62a788dac69e727547b6f61b/840d088c-5520-498e-9382-353e4133f40e/20191210_104112.jpg?format=2500w",
         "element type": "Milestone",
-        "xcoord": 2,
-        "ycoord": 1
+        "organisation/group": "Nudge"
+      }
+    },
+    {
+      "_id": "elem-o25mv0fF",
+      "attributes": {
+        "label": "Plymouth Poetry Festival 2.0 gets funded - POP Collectives",
+        "element type": "Milestone"
       }
     },
     {
@@ -384,70 +477,121 @@
       }
     },
     {
+      "_id": "elem-oOtJqXaE",
+      "attributes": {
+        "label": "POP & Nudge discuss using Power to Change funding to support Plot tenants",
+        "element type": "Connection",
+        "organisation/group": [
+          "Plymouth Octopus",
+          "Nudge"
+        ]
+      }
+    },
+    {
+      "_id": "elem-pw0MWcT6",
+      "attributes": {
+        "label": "The Greenhouse Hub - POP Collectives",
+        "element type": "Milestone"
+      }
+    },
+    {
       "_id": "elem-qnFRQzz2",
       "attributes": {
         "label": "Dec 2020",
-        "element type": "Date",
-        "xcoord": 4,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-rjKmF134",
+      "attributes": {
+        "label": "Belong in Plymouth financially supports Health is Wealth",
+        "element type": "Milestone",
+        "organisation/group": "Diversity Business Incubator"
       }
     },
     {
       "_id": "elem-tWgVISuS",
       "attributes": {
         "label": "Dec 2021",
-        "element type": "Date",
-        "xcoord": 8,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-uCLXrsWC",
       "attributes": {
         "label": "Jun 2020",
-        "element type": "Date",
-        "xcoord": 2,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-vFNT2aSy",
+      "attributes": {
+        "label": "Break The Silence - POP Collectives",
+        "element type": "Milestone"
       }
     },
     {
       "_id": "elem-vp872rXM",
       "attributes": {
         "label": "Mar 2025",
-        "element type": "Date",
-        "xcoord": 20,
-        "ycoord": 0
+        "element type": "Date"
       }
     },
     {
       "_id": "elem-wqaSuZbx",
       "attributes": {
         "label": "Jun 2024",
-        "element type": "Date",
-        "xcoord": 18,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-xFn6d9Uv",
+      "attributes": {
+        "label": "Plymouth Community History Festival 2025 gets funded - POP Collectives",
+        "element type": "Milestone"
       }
     },
     {
       "_id": "elem-xGOe4E0V",
       "attributes": {
         "label": "Jun 2022",
-        "element type": "Date",
-        "xcoord": 10,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-xOxCFMHb",
+      "attributes": {
+        "label": "Neudice CIC forms",
+        "image": "https://neudice.org/cdn/shop/files/Horizontal_neudice_logo_google_workplace.png?v=1696010025&width=450",
+        "element type": "Milestone",
+        "organisation/group": "Neudice CIC"
       }
     },
     {
       "_id": "elem-y9GDrLS6",
       "attributes": {
         "label": "Mar 2020",
-        "element type": "Date",
-        "xcoord": 1,
-        "ycoord": 0
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-zYcGwyU6",
+      "attributes": {
+        "label": "Jabulani 2.0 - POP Collectives",
+        "element type": "Milestone"
       }
     }
   ],
   "connections": [
+    {
+      "_id": "conn-3SivVuud",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-dDG42S0p",
+      "to": "elem-oOtJqXaE"
+    },
     {
       "_id": "conn-4BJQHDZB",
       "direction": "directed",
@@ -503,6 +647,33 @@
       "to": "elem-xGOe4E0V"
     },
     {
+      "_id": "conn-9Bp4K8hn",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-bbsFa3QP",
+      "to": "elem-xOxCFMHb"
+    },
+    {
+      "_id": "conn-A4zH24OQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f4eBS3mY",
+      "to": "elem-7hg1e2Jy"
+    },
+    {
+      "_id": "conn-Biif2dq6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-dDG42S0p",
+      "to": "elem-bT7pwd5Q"
+    },
+    {
       "_id": "conn-CFyatrya",
       "direction": "directed",
       "delayed": false,
@@ -539,6 +710,15 @@
       "to": "elem-hA5lf3Xz"
     },
     {
+      "_id": "conn-ELGpRWT5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-xOxCFMHb",
+      "to": "elem-D2khPJER"
+    },
+    {
       "_id": "conn-ElhHJnsm",
       "direction": "directed",
       "delayed": false,
@@ -546,6 +726,15 @@
       "attributes": {},
       "from": "elem-ZgNG6VBH",
       "to": "elem-W4HTjOXX"
+    },
+    {
+      "_id": "conn-Fmwzt5AW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-D2khPJER",
+      "to": "elem-K5SAobi2"
     },
     {
       "_id": "conn-NJMwu2hV",
@@ -575,6 +764,15 @@
       "to": "elem-e68ejiMC"
     },
     {
+      "_id": "conn-ORclW4c7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-oOtJqXaE",
+      "to": "elem-l9gjsXnc"
+    },
+    {
       "_id": "conn-SM8Nzcnn",
       "direction": "directed",
       "delayed": false,
@@ -600,6 +798,15 @@
       "attributes": {},
       "from": "elem-y9GDrLS6",
       "to": "elem-uCLXrsWC"
+    },
+    {
+      "_id": "conn-VjgOMr0z",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GTO8RjIO",
+      "to": "elem-rjKmF134"
     },
     {
       "_id": "conn-XZm5TdoK",
@@ -629,6 +836,15 @@
       "to": "elem-y9GDrLS6"
     },
     {
+      "_id": "conn-aKd5Kz9n",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-dDG42S0p",
+      "to": "elem-GTO8RjIO"
+    },
+    {
       "_id": "conn-dw1p5HRf",
       "direction": "directed",
       "delayed": false,
@@ -647,6 +863,15 @@
       "to": "elem-h18nt6Gq"
     },
     {
+      "_id": "conn-gL96GNcg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-7hg1e2Jy",
+      "to": "elem-rjKmF134"
+    },
+    {
       "_id": "conn-h1hBHnin",
       "direction": "directed",
       "delayed": false,
@@ -654,6 +879,15 @@
       "attributes": {},
       "from": "elem-xGOe4E0V",
       "to": "elem-WrIhSmwU"
+    },
+    {
+      "_id": "conn-hN8zGM0t",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-l9gjsXnc",
+      "to": "elem-QvLWp8Cd"
     },
     {
       "_id": "conn-jI1ovjNC",
@@ -681,6 +915,15 @@
       "attributes": {},
       "from": "elem-hA5lf3Xz",
       "to": "elem-MCLh40Bf"
+    },
+    {
+      "_id": "conn-lgRjig7e",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-l9gjsXnc",
+      "to": "elem-7chpVvvW"
     },
     {
       "_id": "conn-oI7Q8rI0",
@@ -731,20 +974,6 @@
   "loops": [],
   "maps": [
     {
-      "_id": "map-gqNODhXp",
-      "name": "Map (google sheets linked)",
-      "description": "",
-      "scale": 1,
-      "center": {
-        "x": 0,
-        "y": 0
-      },
-      "src": "https://docs.google.com/spreadsheets/d/1LFcMtY94hDdf-fCA5JR4ccpAiknEauV7PuVZeXwI9xk/edit?usp=sharing",
-      "defaultPerspective": "pers-E9VCVmj6",
-      "defaultElementBehavior": "fixed",
-      "defaultConnectionDirection": "directed"
-    },
-    {
       "_id": "map-jodTZ7G8",
       "name": "Ripples",
       "description": "",
@@ -757,6 +986,26 @@
       "defaultElementBehavior": "fixed",
       "defaultConnectionDirection": "directed",
       "elements": [
+        {
+          "_id": "node-04NY5TBU",
+          "position": {
+            "x": 1427.7157759401841,
+            "y": -902.6512697728707
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-xOxCFMHb"
+        },
+        {
+          "_id": "node-0mxDtS31",
+          "position": {
+            "x": 2624.2221904998732,
+            "y": -84.8046264043836
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-K5SAobi2"
+        },
         {
           "_id": "node-3kLIDAuH",
           "position": {
@@ -808,6 +1057,16 @@
           "element": "elem-xGOe4E0V"
         },
         {
+          "_id": "node-69le5c64",
+          "position": {
+            "x": 4409.502738970287,
+            "y": -467.9669939794141
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-5kaX7Scu"
+        },
+        {
           "_id": "node-93YmRVgR",
           "position": {
             "x": 6016.207557319519,
@@ -826,6 +1085,16 @@
           "pinned": true,
           "style": {},
           "element": "elem-tWgVISuS"
+        },
+        {
+          "_id": "node-AuhNDU89",
+          "position": {
+            "x": 1705.9920935483005,
+            "y": -737.1358828768946
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-D2khPJER"
         },
         {
           "_id": "node-DAKcbkkE",
@@ -858,6 +1127,16 @@
           "element": "elem-bael8aYT"
         },
         {
+          "_id": "node-HDv4igUW",
+          "position": {
+            "x": 3103.8581227698623,
+            "y": -352.5003207369649
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-QvLWp8Cd"
+        },
+        {
           "_id": "node-KjJlkwPF",
           "position": {
             "x": -4608.189554360591,
@@ -878,6 +1157,76 @@
           "element": "elem-CA3Kk3nT"
         },
         {
+          "_id": "node-OW7wE4Br",
+          "position": {
+            "x": 944.6185943704893,
+            "y": -1677.2523345269658
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-bT7pwd5Q"
+        },
+        {
+          "_id": "node-OoU0bJex",
+          "position": {
+            "x": 486.72144983982184,
+            "y": -1370.5959794873756
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-dDG42S0p"
+        },
+        {
+          "_id": "node-Q1HPen2H",
+          "position": {
+            "x": 1106.654237919608,
+            "y": -1168.1183099612451
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-bbsFa3QP"
+        },
+        {
+          "_id": "node-Qmbo8CZb",
+          "position": {
+            "x": 4587.2125944445725,
+            "y": -662.5125199723151
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-pw0MWcT6"
+        },
+        {
+          "_id": "node-QrF9WFHz",
+          "position": {
+            "x": 4847.230172454312,
+            "y": -699.9251211247963
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-gqlsp34e"
+        },
+        {
+          "_id": "node-RRf5wLcb",
+          "position": {
+            "x": -1510.6884585993457,
+            "y": -2185.2616483751262
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-f4eBS3mY"
+        },
+        {
+          "_id": "node-TLy7mKR4",
+          "position": {
+            "x": 2794.577009094985,
+            "y": -1023.9163276321626
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-zYcGwyU6"
+        },
+        {
           "_id": "node-UdfZG0Yg",
           "position": {
             "x": -4150.591837864445,
@@ -888,6 +1237,46 @@
           "element": "elem-MCLh40Bf"
         },
         {
+          "_id": "node-VGX47XUt",
+          "position": {
+            "x": 5498.209432507482,
+            "y": -524.0858957081358
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-xFn6d9Uv"
+        },
+        {
+          "_id": "node-Wt5SRGAm",
+          "position": {
+            "x": 2818.4577986920945,
+            "y": -340.5916062600112
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-l9gjsXnc"
+        },
+        {
+          "_id": "node-XOTS4xUD",
+          "position": {
+            "x": -865.5808844303745,
+            "y": -1897.6792005933066
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-7hg1e2Jy"
+        },
+        {
+          "_id": "node-YDhqLchm",
+          "position": {
+            "x": 2480.048677446195,
+            "y": -574.4365428536897
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-oOtJqXaE"
+        },
+        {
           "_id": "node-Yg5RYPMg",
           "position": {
             "x": -4603.349540894862,
@@ -896,6 +1285,26 @@
           "pinned": true,
           "style": {},
           "element": "elem-no22jOAi"
+        },
+        {
+          "_id": "node-aChmLTgF",
+          "position": {
+            "x": 922.0242876463565,
+            "y": -1914.0803359894421
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-GTO8RjIO"
+        },
+        {
+          "_id": "node-b1SupNPu",
+          "position": {
+            "x": 3561.593150111932,
+            "y": -624.2157369937293
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-FoRtFGM9"
         },
         {
           "_id": "node-bhQoYSaM",
@@ -916,6 +1325,36 @@
           "pinned": true,
           "style": {},
           "element": "elem-RyymQbY0"
+        },
+        {
+          "_id": "node-eqLxSR5G",
+          "position": {
+            "x": 3565.6335220191872,
+            "y": -1468.96601956853
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-rjKmF134"
+        },
+        {
+          "_id": "node-gCLjVX9p",
+          "position": {
+            "x": 4633.9783458851725,
+            "y": -496.0264448437747
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-vFNT2aSy"
+        },
+        {
+          "_id": "node-iA8WHL0E",
+          "position": {
+            "x": 3008.6879341673616,
+            "y": -608.5946464309666
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-7chpVvvW"
         },
         {
           "_id": "node-ixfdHdiK",
@@ -978,6 +1417,16 @@
           "element": "elem-mU4f5om1"
         },
         {
+          "_id": "node-uzGonOm4",
+          "position": {
+            "x": 5498.209432507485,
+            "y": -757.9146529111417
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-o25mv0fF"
+        },
+        {
           "_id": "node-vfZzM2Oz",
           "position": {
             "x": 1168.6522466644424,
@@ -998,6 +1447,16 @@
           "element": "elem-XrKQVfx3"
         },
         {
+          "_id": "node-wH1zzsgB",
+          "position": {
+            "x": 4873.41899326105,
+            "y": -497.89707490139904
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-Fkn54JwI"
+        },
+        {
           "_id": "node-ytKFd5Dp",
           "position": {
             "x": 4400.355787101161,
@@ -1016,9 +1475,29 @@
           "pinned": true,
           "style": {},
           "element": "elem-vp872rXM"
+        },
+        {
+          "_id": "node-zgl5wEE9",
+          "position": {
+            "x": 3741.687808398499,
+            "y": -453.0019535184216
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-fMWmnsA8"
         }
       ],
       "connections": [
+        {
+          "_id": "edge-1y52n5fS",
+          "style": {},
+          "connection": "conn-gL96GNcg"
+        },
+        {
+          "_id": "edge-4zqo5TmG",
+          "style": {},
+          "connection": "conn-ORclW4c7"
+        },
         {
           "_id": "edge-8K2Jm1Ny",
           "style": {},
@@ -1050,6 +1529,16 @@
           "connection": "conn-UjWcxyOB"
         },
         {
+          "_id": "edge-HWPAvdB3",
+          "style": {},
+          "connection": "conn-lgRjig7e"
+        },
+        {
+          "_id": "edge-LJESZGPa",
+          "style": {},
+          "connection": "conn-hN8zGM0t"
+        },
+        {
           "_id": "edge-NGVdkDdf",
           "style": {},
           "connection": "conn-6MY0us7Q"
@@ -1058,6 +1547,11 @@
           "_id": "edge-PWTI1MvP",
           "style": {},
           "connection": "conn-Yooa3sM0"
+        },
+        {
+          "_id": "edge-PnBRiZNk",
+          "style": {},
+          "connection": "conn-A4zH24OQ"
         },
         {
           "_id": "edge-Rdhdyc2U",
@@ -1075,9 +1569,29 @@
           "connection": "conn-ChVOczvo"
         },
         {
+          "_id": "edge-WrtMMz0M",
+          "style": {},
+          "connection": "conn-3SivVuud"
+        },
+        {
+          "_id": "edge-XTUDm20N",
+          "style": {},
+          "connection": "conn-Fmwzt5AW"
+        },
+        {
           "_id": "edge-Y57IpC3D",
           "style": {},
           "connection": "conn-XZm5TdoK"
+        },
+        {
+          "_id": "edge-ZY03ni23",
+          "style": {},
+          "connection": "conn-9Bp4K8hn"
+        },
+        {
+          "_id": "edge-dMRbGRpZ",
+          "style": {},
+          "connection": "conn-ELGpRWT5"
         },
         {
           "_id": "edge-ezEs3Bu3",
@@ -1115,9 +1629,24 @@
           "connection": "conn-7BkhplQv"
         },
         {
+          "_id": "edge-mlSGRHZ1",
+          "style": {},
+          "connection": "conn-Biif2dq6"
+        },
+        {
+          "_id": "edge-nT28rtCN",
+          "style": {},
+          "connection": "conn-aKd5Kz9n"
+        },
+        {
           "_id": "edge-pO6O8TdV",
           "style": {},
           "connection": "conn-jI1ovjNC"
+        },
+        {
+          "_id": "edge-pbVcWmms",
+          "style": {},
+          "connection": "conn-VjgOMr0z"
         },
         {
           "_id": "edge-uYDDEdFc",
@@ -1147,7 +1676,7 @@
     {
       "_id": "pers-A4IiRuu1",
       "name": "Untitled view",
-      "style": "@settings {\n  template: systems;\n  layout: static;\n}\n\nelement[\"element type\"=\"Date\"] {\n  shape: rectangle;\n  height: 50;\n  width: 220;\n}\n\n"
+      "style": "@settings {\n  template: systems;\n  layout: static;\n  element-text-align: bottom;\n  element-color: categorize(\"Element Type\", neon2);\n  element-shape: categorize(\"Element Type\");\n}\n\nelement[\"element type\"=\"Date\"] {\n  shape: rectangle;\n  height: 50;\n  width: 220;\n  text-align: center;\n  font-weight: bold;\n}\n\n"
     },
     {
       "_id": "pers-E9VCVmj6",
