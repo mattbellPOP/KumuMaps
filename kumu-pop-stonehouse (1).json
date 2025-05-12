@@ -1,0 +1,1158 @@
+{
+  "version": 1,
+  "name": "Stonehouse",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-jodTZ7G8",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-PsybPMey",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Same",
+        "Opposite",
+        "+",
+        "-",
+        "++",
+        "+-",
+        "-+",
+        "--",
+        null
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-6vkO1ZFu",
+      "name": "Date",
+      "format": "date",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-Dj2txMmV",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-fofiMpK8",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Milestone",
+        "Event",
+        "Date"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-yeCngTP9",
+      "name": "Image",
+      "format": "image",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-q0jHALV8",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-a8omgHjR",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Reinforcing",
+        "Balancing",
+        "Vicious",
+        "Virtuous",
+        "Stabilizing",
+        "Stagnating"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-eI5H6xmo",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Xcoord",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "name": "Ycoord",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        10,
+        0,
+        1
+      ],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-542uMvKn",
+      "attributes": {
+        "label": "Dec 2019",
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-6R1eOIJc",
+      "attributes": {
+        "label": "Mar 2021",
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-7Mb5uzhM",
+      "attributes": {
+        "label": "Mar 2023",
+        "element type": "Date",
+        "xcoord": 13,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-BT6UQdYe",
+      "attributes": {
+        "label": "Mar 2021",
+        "element type": "Date",
+        "xcoord": 5,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-CA3Kk3nT",
+      "attributes": {
+        "label": "The Plot' is born",
+        "description": "Where did the name ‘The Plot’ come from?\n  \n  It was a pretty scary jump to take on this building. Its 745 sqm, much bigger than The Clipper. We had a wobble in the process of putting plans in place - at one point we thought we were losing the plot! And there it was.\n  \n  It fitted perfectly with the idea we had developed in response to lots of local people saying they just needed a space to grow their project or enterprise. The idea was that people take the space they need - a small shed or a big unit and come together to support each other and create a great a space for local people",
+        "image": "https://images.squarespace-cdn.com/content/v1/62a788dac69e727547b6f61b/b681df5f-3a99-4443-b59d-22ce64ca75b2/dm2020__nudge_plot_neon_72dpi-5805.jpg?format=750w",
+        "element type": "Milestone",
+        "xcoord": 0,
+        "ycoord": 1
+      }
+    },
+    {
+      "_id": "elem-CEzNAz3G",
+      "attributes": {
+        "label": "Mar 2020",
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-DKdg6XET",
+      "attributes": {
+        "label": "Mar 2022",
+        "element type": "Date",
+        "xcoord": 9,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-HwPyTvsq",
+      "attributes": {
+        "label": "Dec 2024",
+        "element type": "Date",
+        "xcoord": 19,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-IVNErEJk",
+      "attributes": {
+        "label": "Dec 2020",
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-MCLh40Bf",
+      "attributes": {
+        "label": "Theatre Royal performance",
+        "description": "The building was in poor condition - our first challenge was getting rid of rats and making it safe for people. We were really motivated to do this because the Theatre Royal Plymouth wanted to do a performance in the space as part of Project X and we really wanted to make that happen - which we did - and it sold out.",
+        "element type": "Event",
+        "xcoord": 1,
+        "ycoord": 1
+      }
+    },
+    {
+      "_id": "elem-RyymQbY0",
+      "attributes": {
+        "label": "Sept 2021",
+        "element type": "Date",
+        "xcoord": 7,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-UiyMBwQC",
+      "attributes": {
+        "label": "Sept 2023",
+        "element type": "Date",
+        "xcoord": 15,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-W4HTjOXX",
+      "attributes": {
+        "label": "Mar 2024",
+        "element type": "Date",
+        "xcoord": 17,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-WrIhSmwU",
+      "attributes": {
+        "label": "Sept 2022",
+        "element type": "Date",
+        "xcoord": 11,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-XrKQVfx3",
+      "attributes": {
+        "label": "Jun 2021",
+        "element type": "Date",
+        "xcoord": 6,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-YjySDodz",
+      "attributes": {
+        "label": "Dec 2022",
+        "element type": "Date",
+        "xcoord": 12,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-YwEaIglX",
+      "attributes": {
+        "label": "Dec 2019",
+        "element type": "Date",
+        "xcoord": 10,
+        "ycoord": 10
+      }
+    },
+    {
+      "_id": "elem-ZgNG6VBH",
+      "attributes": {
+        "label": "Dec 2023",
+        "element type": "Date",
+        "xcoord": 16,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-bael8aYT",
+      "attributes": {
+        "label": "Jun 2023",
+        "element type": "Date",
+        "xcoord": 14,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-e68ejiMC",
+      "attributes": {
+        "label": "Jun 2025",
+        "element type": "Date",
+        "xcoord": 21,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-h18nt6Gq",
+      "attributes": {
+        "label": "Sept 2025",
+        "element type": "Date",
+        "xcoord": 22,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-hA5lf3Xz",
+      "attributes": {
+        "label": "'The Plot' is born",
+        "description": "Where did the name ‘The Plot’ come from?\n\nIt was a pretty scary jump to take on this building. Its 745 sqm, much bigger than The Clipper. We had a wobble in the process of putting plans in place - at one point we thought we were losing the plot!  And there it was.\n\nIt fitted perfectly with the idea we had developed in response to lots of local people saying they just needed a space to grow their project or enterprise. The idea was that people take the space they need - a small shed or a big unit and come together to support each other and create a great a space for local people",
+        "image": "https://images.squarespace-cdn.com/content/v1/62a788dac69e727547b6f61b/b681df5f-3a99-4443-b59d-22ce64ca75b2/dm2020__nudge_plot_neon_72dpi-5805.jpg?format=750w",
+        "element type": "Milestone"
+      }
+    },
+    {
+      "_id": "elem-mU4f5om1",
+      "attributes": {
+        "label": "Sept 2020",
+        "element type": "Date",
+        "xcoord": 3,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-no22jOAi",
+      "attributes": {
+        "label": "Nudge take on 80-84 Union Street",
+        "description": "In December 2019 we took on 80-84 Union Street, a building that had been standing empty for a few years and was in disrepair. \n  We were approached by the landowner who was keen to find a better use for the space.\n  \n  The Board decided that bringing this space back into use would have significant social impact. So we don’t own this building, we rent it.\n  \n  This has influenced how we invested in the space. We focused on creating spaces that could be dismantled and moved - greenhouses and sheds. As well as making some essential investment in doors, electrics and toilets.",
+        "date": "2019-12-01",
+        "image": "https://images.squarespace-cdn.com/content/v1/62a788dac69e727547b6f61b/840d088c-5520-498e-9382-353e4133f40e/20191210_104112.jpg?format=2500w",
+        "element type": "Milestone",
+        "xcoord": 2,
+        "ycoord": 1
+      }
+    },
+    {
+      "_id": "elem-oFDbhAnc",
+      "attributes": {
+        "label": "Jun 2020",
+        "element type": "Date"
+      }
+    },
+    {
+      "_id": "elem-qnFRQzz2",
+      "attributes": {
+        "label": "Dec 2020",
+        "element type": "Date",
+        "xcoord": 4,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-tWgVISuS",
+      "attributes": {
+        "label": "Dec 2021",
+        "element type": "Date",
+        "xcoord": 8,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-uCLXrsWC",
+      "attributes": {
+        "label": "Jun 2020",
+        "element type": "Date",
+        "xcoord": 2,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-vp872rXM",
+      "attributes": {
+        "label": "Mar 2025",
+        "element type": "Date",
+        "xcoord": 20,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-wqaSuZbx",
+      "attributes": {
+        "label": "Jun 2024",
+        "element type": "Date",
+        "xcoord": 18,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-xGOe4E0V",
+      "attributes": {
+        "label": "Jun 2022",
+        "element type": "Date",
+        "xcoord": 10,
+        "ycoord": 0
+      }
+    },
+    {
+      "_id": "elem-y9GDrLS6",
+      "attributes": {
+        "label": "Mar 2020",
+        "element type": "Date",
+        "xcoord": 1,
+        "ycoord": 0
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-4BJQHDZB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-XrKQVfx3",
+      "to": "elem-RyymQbY0"
+    },
+    {
+      "_id": "conn-64xfZlJ2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-7Mb5uzhM",
+      "to": "elem-bael8aYT"
+    },
+    {
+      "_id": "conn-6MY0us7Q",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-wqaSuZbx",
+      "to": "elem-HwPyTvsq"
+    },
+    {
+      "_id": "conn-6lZTRcQG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-no22jOAi",
+      "to": "elem-CA3Kk3nT"
+    },
+    {
+      "_id": "conn-7BkhplQv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-bael8aYT",
+      "to": "elem-UiyMBwQC"
+    },
+    {
+      "_id": "conn-8XHPQEmQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-DKdg6XET",
+      "to": "elem-xGOe4E0V"
+    },
+    {
+      "_id": "conn-CFyatrya",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-BT6UQdYe",
+      "to": "elem-XrKQVfx3"
+    },
+    {
+      "_id": "conn-ChVOczvo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-uCLXrsWC",
+      "to": "elem-mU4f5om1"
+    },
+    {
+      "_id": "conn-D7RJfBwi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WrIhSmwU",
+      "to": "elem-YjySDodz"
+    },
+    {
+      "_id": "conn-DXCZtvaB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-no22jOAi",
+      "to": "elem-hA5lf3Xz"
+    },
+    {
+      "_id": "conn-ElhHJnsm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ZgNG6VBH",
+      "to": "elem-W4HTjOXX"
+    },
+    {
+      "_id": "conn-NJMwu2hV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-W4HTjOXX",
+      "to": "elem-wqaSuZbx"
+    },
+    {
+      "_id": "conn-NtjXgz4x",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-mU4f5om1",
+      "to": "elem-qnFRQzz2"
+    },
+    {
+      "_id": "conn-O1CLav7P",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-vp872rXM",
+      "to": "elem-e68ejiMC"
+    },
+    {
+      "_id": "conn-SM8Nzcnn",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-mU4f5om1",
+      "to": "elem-IVNErEJk"
+    },
+    {
+      "_id": "conn-SNWMaqWF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-CA3Kk3nT",
+      "to": "elem-MCLh40Bf"
+    },
+    {
+      "_id": "conn-UjWcxyOB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-y9GDrLS6",
+      "to": "elem-uCLXrsWC"
+    },
+    {
+      "_id": "conn-XZm5TdoK",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-HwPyTvsq",
+      "to": "elem-vp872rXM"
+    },
+    {
+      "_id": "conn-XqSbmb5d",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-542uMvKn",
+      "to": "elem-CEzNAz3G"
+    },
+    {
+      "_id": "conn-Yooa3sM0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-YwEaIglX",
+      "to": "elem-y9GDrLS6"
+    },
+    {
+      "_id": "conn-dw1p5HRf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-tWgVISuS",
+      "to": "elem-DKdg6XET"
+    },
+    {
+      "_id": "conn-g5470Nec",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-e68ejiMC",
+      "to": "elem-h18nt6Gq"
+    },
+    {
+      "_id": "conn-h1hBHnin",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-xGOe4E0V",
+      "to": "elem-WrIhSmwU"
+    },
+    {
+      "_id": "conn-jI1ovjNC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-RyymQbY0",
+      "to": "elem-tWgVISuS"
+    },
+    {
+      "_id": "conn-jjlzoKVr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qnFRQzz2",
+      "to": "elem-6R1eOIJc"
+    },
+    {
+      "_id": "conn-kxmlqaE0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-hA5lf3Xz",
+      "to": "elem-MCLh40Bf"
+    },
+    {
+      "_id": "conn-oI7Q8rI0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-YjySDodz",
+      "to": "elem-7Mb5uzhM"
+    },
+    {
+      "_id": "conn-uhMhxAm2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-UiyMBwQC",
+      "to": "elem-ZgNG6VBH"
+    },
+    {
+      "_id": "conn-wA5vOcYM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-IVNErEJk",
+      "to": "elem-BT6UQdYe"
+    },
+    {
+      "_id": "conn-wKyk2t7D",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-CEzNAz3G",
+      "to": "elem-oFDbhAnc"
+    },
+    {
+      "_id": "conn-wnFrRrsR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-oFDbhAnc",
+      "to": "elem-mU4f5om1"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-gqNODhXp",
+      "name": "Map (google sheets linked)",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://docs.google.com/spreadsheets/d/1LFcMtY94hDdf-fCA5JR4ccpAiknEauV7PuVZeXwI9xk/edit?usp=sharing",
+      "defaultPerspective": "pers-E9VCVmj6",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed"
+    },
+    {
+      "_id": "map-jodTZ7G8",
+      "name": "Ripples",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-A4IiRuu1",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-3kLIDAuH",
+          "position": {
+            "x": 630.0349899249901,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-WrIhSmwU"
+        },
+        {
+          "_id": "node-3uvJgzih",
+          "position": {
+            "x": 3323.121273622253,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ZgNG6VBH"
+        },
+        {
+          "_id": "node-4NcR97yy",
+          "position": {
+            "x": -2874.0845317693133,
+            "y": 140.79155404454437
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-IVNErEJk"
+        },
+        {
+          "_id": "node-4h4bVta9",
+          "position": {
+            "x": 2784.5040168828014,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-UiyMBwQC"
+        },
+        {
+          "_id": "node-5EJ2HFA4",
+          "position": {
+            "x": 91.417733185537,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-xGOe4E0V"
+        },
+        {
+          "_id": "node-93YmRVgR",
+          "position": {
+            "x": 6016.207557319519,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-e68ejiMC"
+        },
+        {
+          "_id": "node-AWEdOq2C",
+          "position": {
+            "x": -985.8167802933685,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-tWgVISuS"
+        },
+        {
+          "_id": "node-DAKcbkkE",
+          "position": {
+            "x": -447.1995235539153,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-DKdg6XET"
+        },
+        {
+          "_id": "node-DCRnXB4p",
+          "position": {
+            "x": -2494.679420051431,
+            "y": 133.61929993566352
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-BT6UQdYe"
+        },
+        {
+          "_id": "node-H7yIJJal",
+          "position": {
+            "x": 2245.8867601433494,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-bael8aYT"
+        },
+        {
+          "_id": "node-KjJlkwPF",
+          "position": {
+            "x": -4608.189554360591,
+            "y": 170.69335958149992
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-YwEaIglX"
+        },
+        {
+          "_id": "node-OCkzPI0y",
+          "position": {
+            "x": -4385.109775531619,
+            "y": -47.87873195375629
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-CA3Kk3nT"
+        },
+        {
+          "_id": "node-UdfZG0Yg",
+          "position": {
+            "x": -4150.591837864445,
+            "y": -46.96974749195924
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-MCLh40Bf"
+        },
+        {
+          "_id": "node-Yg5RYPMg",
+          "position": {
+            "x": -4603.349540894862,
+            "y": -47.68114371734585
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-no22jOAi"
+        },
+        {
+          "_id": "node-bhQoYSaM",
+          "position": {
+            "x": 3861.738530361706,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-W4HTjOXX"
+        },
+        {
+          "_id": "node-c4SVnvaO",
+          "position": {
+            "x": -1524.4340370328218,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-RyymQbY0"
+        },
+        {
+          "_id": "node-ixfdHdiK",
+          "position": {
+            "x": -3751.5217345803803,
+            "y": 154.97773246206026
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-uCLXrsWC"
+        },
+        {
+          "_id": "node-kaRyQ6eX",
+          "position": {
+            "x": 6554.824814058972,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-h18nt6Gq"
+        },
+        {
+          "_id": "node-p0s1tVvg",
+          "position": {
+            "x": 1707.2695034038945,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-7Mb5uzhM"
+        },
+        {
+          "_id": "node-rqbgOQ4p",
+          "position": {
+            "x": 4938.973043840613,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-HwPyTvsq"
+        },
+        {
+          "_id": "node-snMMgoSv",
+          "position": {
+            "x": -4190.6376528957535,
+            "y": 166.42167307622066
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-y9GDrLS6"
+        },
+        {
+          "_id": "node-tvPhzMfx",
+          "position": {
+            "x": -3300.636207697687,
+            "y": 156.0852365384417
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-mU4f5om1"
+        },
+        {
+          "_id": "node-vfZzM2Oz",
+          "position": {
+            "x": 1168.6522466644424,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-YjySDodz"
+        },
+        {
+          "_id": "node-vo3RkRE0",
+          "position": {
+            "x": -2063.0512937722738,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-XrKQVfx3"
+        },
+        {
+          "_id": "node-ytKFd5Dp",
+          "position": {
+            "x": 4400.355787101161,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-wqaSuZbx"
+        },
+        {
+          "_id": "node-zPO4HyFt",
+          "position": {
+            "x": 5477.590300580066,
+            "y": 129.347613430384
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-vp872rXM"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-8K2Jm1Ny",
+          "style": {},
+          "connection": "conn-O1CLav7P"
+        },
+        {
+          "_id": "edge-DOb58Kwn",
+          "style": {},
+          "connection": "conn-64xfZlJ2"
+        },
+        {
+          "_id": "edge-G3ltLUT9",
+          "style": {},
+          "connection": "conn-uhMhxAm2"
+        },
+        {
+          "_id": "edge-GXv93OUo",
+          "style": {},
+          "connection": "conn-CFyatrya"
+        },
+        {
+          "_id": "edge-GqJ08tDh",
+          "style": {},
+          "connection": "conn-D7RJfBwi"
+        },
+        {
+          "_id": "edge-HMru8Beg",
+          "style": {},
+          "connection": "conn-UjWcxyOB"
+        },
+        {
+          "_id": "edge-NGVdkDdf",
+          "style": {},
+          "connection": "conn-6MY0us7Q"
+        },
+        {
+          "_id": "edge-PWTI1MvP",
+          "style": {},
+          "connection": "conn-Yooa3sM0"
+        },
+        {
+          "_id": "edge-Rdhdyc2U",
+          "style": {},
+          "connection": "conn-ElhHJnsm"
+        },
+        {
+          "_id": "edge-TJXnGBvC",
+          "style": {},
+          "connection": "conn-SM8Nzcnn"
+        },
+        {
+          "_id": "edge-TyuVw1Xg",
+          "style": {},
+          "connection": "conn-ChVOczvo"
+        },
+        {
+          "_id": "edge-Y57IpC3D",
+          "style": {},
+          "connection": "conn-XZm5TdoK"
+        },
+        {
+          "_id": "edge-ezEs3Bu3",
+          "style": {},
+          "connection": "conn-SNWMaqWF"
+        },
+        {
+          "_id": "edge-fQT9tUc7",
+          "style": {},
+          "connection": "conn-4BJQHDZB"
+        },
+        {
+          "_id": "edge-hnJD1oPm",
+          "style": {},
+          "connection": "conn-6lZTRcQG"
+        },
+        {
+          "_id": "edge-kI3pDrln",
+          "style": {},
+          "connection": "conn-NJMwu2hV"
+        },
+        {
+          "_id": "edge-kgViUYxK",
+          "style": {},
+          "connection": "conn-h1hBHnin"
+        },
+        {
+          "_id": "edge-lRnXqiNr",
+          "style": {},
+          "connection": "conn-8XHPQEmQ"
+        },
+        {
+          "_id": "edge-m5OFNq5M",
+          "style": {},
+          "connection": "conn-7BkhplQv"
+        },
+        {
+          "_id": "edge-pO6O8TdV",
+          "style": {},
+          "connection": "conn-jI1ovjNC"
+        },
+        {
+          "_id": "edge-uYDDEdFc",
+          "style": {},
+          "connection": "conn-wA5vOcYM"
+        },
+        {
+          "_id": "edge-yy8bNGDk",
+          "style": {},
+          "connection": "conn-oI7Q8rI0"
+        },
+        {
+          "_id": "edge-zSUVZrcZ",
+          "style": {},
+          "connection": "conn-dw1p5HRf"
+        },
+        {
+          "_id": "edge-zoVZ1lN6",
+          "style": {},
+          "connection": "conn-g5470Nec"
+        }
+      ],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-A4IiRuu1",
+      "name": "Untitled view",
+      "style": "@settings {\n  template: systems;\n  layout: static;\n}\n\nelement[\"element type\"=\"Date\"] {\n  shape: rectangle;\n  height: 50;\n  width: 220;\n}\n\n"
+    },
+    {
+      "_id": "pers-E9VCVmj6",
+      "name": "Untitled view (2)",
+      "style": "@settings {\n  template: scatter;\n  layout-x: \"Xcoord\";\n  layout-y: \"Ycoord\";\n  layout: static;\n  layout-x-multiplier: 1000;\n}\n\nelement[\"element type\"=\"Date\"] {\n  shape: rectangle;\n  height: 50;\n  width: 220;\n}\n\n"
+    }
+  ]
+}
