@@ -1764,118 +1764,133 @@
       "_id": "attr-9zEpb8D3",
       "name": "Attendees",
       "format": "string",
-      "private": true,
+      "private": false,
       "limit": "1",
       "category": "General",
       "prompt": "autocomplete",
-      "locked": true,
-      "sort": true,
-      "cluster": true
+      "locked": false,
+      "sort": false,
+      "cluster": false
     },
     {
       "_id": "attr-0WwBs0OF",
       "name": "Category",
       "format": "string",
-      "private": true,
+      "private": false,
       "limit": "1",
       "category": "General",
       "prompt": "autocomplete",
-      "locked": true,
-      "sort": true,
-      "cluster": true
+      "locked": false,
+      "sort": false,
+      "cluster": false
     },
     {
       "_id": "attr-o1N5onVl",
       "name": "Connection Type",
       "format": "string",
-      "private": true,
+      "private": false,
       "limit": "1",
       "category": "General",
       "prompt": "list",
-      "locked": true,
+      "locked": false,
       "values": [
-        "Same, Opposite, +, -, ++, +-, -+, --"
+        "Same",
+        "Opposite",
+        "+",
+        "-",
+        "++",
+        "+-",
+        "-+",
+        "--"
       ],
-      "sort": true,
-      "cluster": true
+      "sort": false,
+      "cluster": false
     },
     {
       "_id": "attr-F175Rmsq",
       "name": "Description",
       "format": "text",
-      "private": true,
+      "private": false,
       "limit": "1",
       "category": "General",
       "prompt": "none",
-      "locked": true,
-      "sort": true,
-      "cluster": true
+      "locked": false,
+      "sort": false,
+      "cluster": false
     },
     {
       "_id": "attr-i3FlF1Tb",
       "name": "Element Type",
       "format": "string",
-      "private": true,
+      "private": false,
       "limit": "1",
       "category": "General",
       "prompt": "list",
-      "locked": true,
+      "locked": false,
       "values": [
-        "Community event, Project Meeting, resident led activity, new connection"
+        "Community event",
+        "Project Meeting",
+        "resident led activity",
+        "new connection"
       ],
-      "sort": true,
-      "cluster": true
+      "sort": false,
+      "cluster": false
     },
     {
       "_id": "attr-WQQgrfPI",
       "name": "Label",
       "format": "string",
-      "private": true,
+      "private": false,
       "limit": "1",
       "category": "General",
       "prompt": "autocomplete",
-      "locked": true,
-      "sort": true,
-      "cluster": true
+      "locked": false,
+      "sort": false,
+      "cluster": false
     },
     {
       "_id": "attr-tqAJFbe5",
       "name": "Loop Type",
       "format": "string",
-      "private": true,
+      "private": false,
       "limit": "1",
       "category": "General",
       "prompt": "list",
-      "locked": true,
+      "locked": false,
       "values": [
-        "Reinforcing, Balancing, Vicious, Virtuous, Stabilizing, Stagnating"
+        "Reinforcing",
+        "Balancing",
+        "Vicious",
+        "Virtuous",
+        "Stabilizing",
+        "Stagnating"
       ],
-      "sort": true,
-      "cluster": true
+      "sort": false,
+      "cluster": false
     },
     {
       "_id": "attr-oAl1ZVc4",
       "name": "Shape",
       "format": "string",
-      "private": true,
+      "private": false,
       "limit": "1",
       "category": "General",
       "prompt": "autocomplete",
-      "locked": true,
-      "sort": true,
-      "cluster": true
+      "locked": false,
+      "sort": false,
+      "cluster": false
     },
     {
       "_id": "attr-RcQUUSaw",
       "name": "Tags",
       "format": "string",
-      "private": true,
+      "private": false,
       "limit": "0",
       "category": "General",
       "prompt": "autocomplete",
-      "locked": true,
-      "sort": true,
-      "cluster": true
+      "locked": false,
+      "sort": false,
+      "cluster": false
     }
   ],
   "defaultMap": "map-00JY1aA9",
